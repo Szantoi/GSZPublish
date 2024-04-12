@@ -20,3 +20,31 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.bg-image {
+    background-image: url('/Image/Logo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-animated {
+    background-image: url('/Image/animated-image.gif');
+    background-size: cover;
+    background-position: center;
+    animation: animateBackground 10s infinite; /* 10 másodperces animáció, végtelen ismétléssel */
+}
+
+@keyframes animateBackground {
+    0% {
+        opacity: 0.5;
+    }
+    /* Kezdõállapot */
+    50% {
+        opacity: 1;
+    }
+    /* Félidõben teljesen látható */
+    100% {
+        opacity: 0.5;
+    }
+    /* Visszaállítás */
+}
