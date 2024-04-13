@@ -1,7 +1,63 @@
 ﻿
+:root {
+    --atomic-tangerine: #ff9045ff;
+    --Color-Primary: #ff9045;
+    --raisin-black: #201f25ff;
+    --Color-background: #201f25ff;
+    --Color-Secundery: #201f25ff;
+    --ghost-white: #f7f7ffff;
+    --Color-text: #f7f7ffff;
+    --chartreuse: #e0ff4fff;
+    --celestial-blue: #279af1ff;
+    --raspberry: #d81159ff;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--Color-text);
+    background-color: var(--Color-background);
+}
+
+a {
+    color: #007bff;
+}
+
+    a:hover {
+        color: #0056b3;
+    }
+
+    a:visited {
+        color: # purple;
+    }
+
+    a:active {
+        color: #007bff;
+    }
+
+
+@font-face {
+    font-family: 'font-h1-primeri';
+    src: url('/fonts/SdglitchdemoRegular-YzROj.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'font-p-primeri';
+    src: url('/fonts/Xolonium-nGqP.otf') format('opentype');
+}
+
 .GSZ-bg-image {
     background-size: cover;
     background-position: center;
+}
+
+.GSZ-bg {
+    background-size: cover;
+    background-position: center;
+    animation: animateBackground 5s;
 }
 
 .GSZ-bg-animated {
@@ -20,7 +76,7 @@
     }
 }
 
-.GSZ-bg-animated::after {
+.gsz-bg-animated::after {
     content: "";
     position: fixed;
     top: 0;
@@ -39,4 +95,18 @@
     100% {
         opacity: 0;
     }
+}
+
+.gsz-text-heading {
+    font-weight: bold;
+    line-height: 2em;
+    color: var(--Color-Primary);
+    text-transform: uppercase;
+    font-family: 'font-h1-primeri', sans-serif;
+}
+
+.gsz-text-paragraph {
+    line-height: 1em;
+    color: var(--Color-text);
+    font-family: 'font-p-primeri', sans-serif;
 }
