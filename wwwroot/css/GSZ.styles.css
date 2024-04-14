@@ -6,10 +6,10 @@
     --chartreuse: #e0ff4fff;
     --celestial-blue: #279af1ff;
     --raspberry: #d81159ff;
-    --celestial-blue: #279af1ff;
     --sgbus-green: #6bd425ff;
     --moonstone: #53a2beff;
     --mountbatten-pink: #94849bff;
+    --emerald: #06d6a0ff;
     /*----------------------------*/
     --primary-color: var(--atomic-tangerine);
     --background-color: var(--raisin-black);
@@ -19,7 +19,7 @@
     --nav-color: var(--raspberry);
     --a-color: var(--celestial-blue);
     --a-hover-color: var(--moonstone);
-    --a-visited-color: var(--mountbatten-pink); /*---------------------------*/
+    --a-visited-color: var(--emerald);
     --a-active-color: var(--mountbatten-pink);
 }
 
@@ -36,6 +36,7 @@ body {
 a {
     color: var(--a-color);
     text-decoration: none;
+    font-family: a-primeri, sans-serif;
 }
 
     a:hover {
@@ -43,7 +44,7 @@ a {
     }
 
     a:visited {
-        color: var(--a-color);
+        color: var(--a-visited-color);
     }
 
     a:active {
@@ -72,6 +73,10 @@ nav .nav-item a {
 @font-face {
     font-family: 'p-primeri';
     src: url('/fonts/Xolonium-nGqP.otf') format('opentype');
+}
+@font-face {
+    font-family: 'a-primeri';
+    src: url('/fonts/AsherPunkDemoVersion-ALZJ2.ttf') format('truetype');
 }
 
 .GSZ-bg-image {
