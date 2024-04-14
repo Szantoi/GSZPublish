@@ -1,15 +1,26 @@
 ﻿
 :root {
     --atomic-tangerine: #ff9045ff;
-    --Color-Primary: #ff9045;
     --raisin-black: #201f25ff;
-    --Color-background: #201f25ff;
-    --Color-Secundery: #201f25ff;
     --ghost-white: #f7f7ffff;
-    --Color-text: #f7f7ffff;
     --chartreuse: #e0ff4fff;
     --celestial-blue: #279af1ff;
     --raspberry: #d81159ff;
+    --celestial-blue: #279af1ff;
+    --sgbus-green: #6bd425ff;
+    --moonstone: #53a2beff;
+    --mountbatten-pink: #94849bff;
+    /*----------------------------*/
+    --primary-color: var(--atomic-tangerine);
+    --background-color: var(--raisin-black);
+    --secundery-color: var(--raisin-black);
+    --text-color: var(--ghost-white);
+    /*---------------------------*/
+    --nav-color: var(--raspberry);
+    --a-color: var(--celestial-blue);
+    --a-hover-color: var(--moonstone);
+    --a-visited-color: var(--mountbatten-pink); /*---------------------------*/
+    --a-active-color: var(--mountbatten-pink);
 }
 
 html {
@@ -18,34 +29,48 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    color: var(--Color-text);
-    background-color: var(--Color-background);
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 a {
-    color: #007bff;
+    color: var(--a-color);
+    text-decoration: none;
 }
 
     a:hover {
-        color: #0056b3;
+        color: var(--a-hover-color);
     }
 
     a:visited {
-        color: # purple;
+        color: var(--a-color);
     }
 
     a:active {
-        color: #007bff;
+        color: var(--a-active-color);
     }
 
+nav .nav-item a {
+    font-weight: bold;
+    margin-right: 2em;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    color: var(--nav-color);
+    font-family: nav-primeri, sans-serif;
+}
 
 @font-face {
-    font-family: 'font-h1-primeri';
+    font-family: 'h-primeri';
     src: url('/fonts/SdglitchdemoRegular-YzROj.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'font-p-primeri';
+    font-family: 'nav-primeri';
+    src: url('/fonts/NeonFuture-6YY2A.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'p-primeri';
     src: url('/fonts/Xolonium-nGqP.otf') format('opentype');
 }
 
@@ -100,13 +125,20 @@ a {
 .gsz-text-heading {
     font-weight: bold;
     line-height: 2em;
-    color: var(--Color-Primary);
+    color: var(--primary-color);
     text-transform: uppercase;
-    font-family: 'font-h1-primeri', sans-serif;
+    font-family: h-primeri, sans-serif;
 }
 
 .gsz-text-paragraph {
     line-height: 1em;
-    color: var(--Color-text);
-    font-family: 'font-p-primeri', sans-serif;
+    color: var(--text-color);
+    font-family: p-primeri, sans-serif;
+}
+.gsz-text-nav {
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 0.21em;
+    color: var(--nav-color);
+    font-family: nav-primeri, sans-serif;
 }
