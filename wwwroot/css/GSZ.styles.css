@@ -1,4 +1,24 @@
 ﻿
+@font-face {
+    font-family: 'h-primeri';
+    src: url('/fonts/SdglitchdemoRegular-YzROj.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'nav-primeri';
+    src: url('/fonts/NeonFuture-6YY2A.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'p-primeri';
+    src: url('/fonts/Xolonium-nGqP.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'a-primeri';
+    src: url('/fonts/AsherPunkDemoVersion-ALZJ2.ttf') format('truetype');
+}
+
 :root {
     --atomic-tangerine: #ff9045ff;
     --raisin-black: #201f25ff;
@@ -52,45 +72,19 @@ a {
     }
 
 nav .nav-item a {
-    font-weight: bold;
     margin-right: 2em;
-    letter-spacing: 0.2em;
     line-height: 1.5em;
+    letter-spacing: 0.2em;
     color: var(--nav-color);
     font-family: nav-primeri, sans-serif;
 }
 
-@font-face {
-    font-family: 'h-primeri';
-    src: url('/fonts/SdglitchdemoRegular-YzROj.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'nav-primeri';
-    src: url('/fonts/NeonFuture-6YY2A.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'p-primeri';
-    src: url('/fonts/Xolonium-nGqP.otf') format('opentype');
-}
-@font-face {
-    font-family: 'a-primeri';
-    src: url('/fonts/AsherPunkDemoVersion-ALZJ2.ttf') format('truetype');
-}
-
-.GSZ-bg-image {
+.gsz-bg-image {
     background-size: cover;
     background-position: center;
 }
 
-.GSZ-bg {
-    background-size: cover;
-    background-position: center;
-    animation: animateBackground 5s;
-}
-
-.GSZ-bg-animated {
+.gsz-bg-animated {
     background-size: cover;
     background-position: center;
     animation: animateBackground 5s;
@@ -139,11 +133,4 @@ nav .nav-item a {
     line-height: 1em;
     color: var(--text-color);
     font-family: p-primeri, sans-serif;
-}
-.gsz-text-nav {
-    font-weight: bold;
-    line-height: 1.5em;
-    letter-spacing: 0.21em;
-    color: var(--nav-color);
-    font-family: nav-primeri, sans-serif;
 }
