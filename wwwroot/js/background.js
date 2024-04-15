@@ -1,13 +1,13 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
-    var bg = document.getElementById("bg");
     var bgh = document.getElementById("bgh");
+    var bgf = document.getElementById("bgf");
     var animationDuration = 5000;
 
-    bgh.style.backgroundImage = "url('/Image/Backgrund_header.gif')";
+    bgh.style.backgroundImage = "url('/Image/header-backgrund.gif')";
+    bgf.style.backgroundImage = "url('/Image/footer-backgrund.png')";
 
-    bg.style.backgroundImage = "url('/Image/Backgrund.png')";
 
     setTimeout(function () {
-        bgh.style.backgroundImage = "url('/Image/Backgrund_header_2.png')";
+        bgh.style.backgroundImage = "url('/Image/header-backgrund.png')";
     }, animationDuration);
 });
