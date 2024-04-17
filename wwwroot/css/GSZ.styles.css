@@ -77,7 +77,7 @@ nav .nav-item a {
     line-height: 1.5em;
     letter-spacing: 0.2em;
     color: var(--nav-color);
-    text-shadow: 0.1em 0.1em 0.3em var(--nav-color), -0.1em -0.1em 0.3em var(--nav-color);
+    text-shadow: 0.1em 0.1em 0.4em var(--nav-color), 0.1em 0.1em 0.2em var(--nav-color);
     font-family: nav-primeri, sans-serif;
     font-weight: 899;
 }
