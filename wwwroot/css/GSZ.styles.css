@@ -4,6 +4,12 @@
     src: url('/fonts/SdglitchdemoRegular-YzROj.ttf') format('truetype');
 }
 
+
+@font-face {
+    font-family: 'h1-primeri';
+    src: url('/fonts/CyberSport-x3zg8.ttf') format('truetype');
+}
+
 @font-face {
     font-family: 'nav-primeri';
     src: url('/fonts/NeonFuture-6YY2A.ttf') format('truetype');
@@ -18,6 +24,7 @@
     font-family: 'a-primeri';
     src: url('/fonts/AsherPunkDemoVersion-ALZJ2.ttf') format('truetype');
 }
+
 
 :root {
     --atomic-tangerine: #ff9045ff;
@@ -72,12 +79,12 @@ a {
         color: var(--a-active-color);
     }
 
-nav .nav-item a {
+header nav .nav-item a {
     margin-right: 2em;
     line-height: 1.5em;
     letter-spacing: 0.2em;
     color: var(--nav-color);
-    text-shadow: 0.1em 0.1em 0.4em var(--nav-color), 0.1em 0.1em 0.2em var(--nav-color);
+    text-shadow: 0.1em 0.1em 0.3em var(--nav-color), -0.1em -0.1em 0.3em var(--nav-color);
     font-family: nav-primeri, sans-serif;
     font-weight: 899;
 }
@@ -124,7 +131,19 @@ nav .nav-item a {
     }
 }
 
-.gsz-text-heading {
+.gsz-text-heading1 {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    margin-right: 2em;
+    color: var(--ghost-white);
+    text-transform: uppercase;
+    font-family: h1-primeri, sans-serif;
+}
+
+.gsz-text-heading2 {
+    font-size: 2em;
     font-weight: bold;
     line-height: 2em;
     color: var(--primary-color);
@@ -136,4 +155,11 @@ nav .nav-item a {
     line-height: 1em;
     color: var(--text-color);
     font-family: p-primeri, sans-serif;
+}
+.profile-picture {
+    width: 10em; /* Kép szélessége */
+    height: 10em; /* Kép magassága */
+    border-radius: 50%; /* Kör alakú kép kialakítása (a kép szélességének és magasságának a felére állítva) */
+    border: 0.2em solid var(--primary-color); /* Keret */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Árnyék */
 }
