@@ -48,6 +48,10 @@
     --a-hover-color: var(--moonstone);
     --a-visited-color: var(--emerald);
     --a-active-color: var(--mountbatten-pink);
+    /*---------------------------*/
+    /*400x200px, if 1em = 16px, 25X12.5em*/
+    --logo-width: 12em;
+    --logo-height: 6em;
 }
 
 html {
@@ -132,7 +136,7 @@ header nav .nav-item a {
 }
 
 .gsz-text-heading1 {
-    font-size: 4em;
+    font-size: 6em;
     font-weight: bold;
     line-height: 1em;
     letter-spacing: 0.2em;
@@ -144,7 +148,6 @@ header nav .nav-item a {
 
 .gsz-text-heading2 {
     font-size: 2em;
-    font-weight: bold;
     line-height: 2em;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -157,9 +160,17 @@ header nav .nav-item a {
     font-family: p-primeri, sans-serif;
 }
 .profile-picture {
-    width: 10em; /* Kép szélessége */
-    height: 10em; /* Kép magassága */
-    border-radius: 50%; /* Kör alakú kép kialakítása (a kép szélességének és magasságának a felére állítva) */
-    border: 0.2em solid var(--primary-color); /* Keret */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Árnyék */
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: 0.2em solid var(--primary-color);
+    box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.3);
+}
+header div .profile-Logo-picture {
+    width: var(--logo-width);
+    height: var(--logo-height);
+}
+.slogan {
+    font-size: 2em;
+    line-height: 2em;
 }
