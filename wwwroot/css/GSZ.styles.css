@@ -50,8 +50,8 @@
     --a-active-color: var(--mountbatten-pink);
     /*---------------------------*/
     /*400x200px, if 1em = 16px, 25X12.5em*/
-    --logo-width: 12em;
-    --logo-height: 6em;
+    --logo-width: 16em;
+    --logo-height: 8em;
 }
 
 html {

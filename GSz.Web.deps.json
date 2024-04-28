@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "GSz_Web/1.0.0": {
+      "GSz.Web/1.0.0": {
         "runtime": {
-          "GSz_Web.dll": {}
+          "GSz.Web.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "GSz_Web/1.0.0": {
+    "GSz.Web/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
