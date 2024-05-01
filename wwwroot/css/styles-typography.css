@@ -1,0 +1,89 @@
+﻿
+@font-face {
+    font-family: 'h1-primeri';
+    src: url('/Fonts/CyberSport-x3zg8.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'h4-primeri';
+    src: url('/Fonts/SdglitchdemoRegular-YzROj.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'h5-primeri';
+    src: url('/Fonts/Xolonium-nGqP.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'nav-primeri';
+    src: url('/Fonts/NeonFuture-6YY2A.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'a-primeri';
+    src: url('/Fonts/AsherPunkDemoVersion-ALZJ2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'p-primeri';
+    src: url('/Fonts/VictorMono-VariableFont_wght.ttf') format('truetype');
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    margin-right: 2em;
+    text-transform: uppercase;
+    font-family: h1-primeri, sans-serif;
+}
+
+h4 {
+    font-size: 2.5em;
+    line-height: 2em;
+    text-transform: uppercase;
+    font-family: h4-primeri, sans-serif;
+}
+
+h5 {
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: h5-primeri, sans-serif;
+    margin-left: 0.5em;
+}
+
+h6 {
+    font-size: 1em;
+    line-height: 1em;
+    margin-left: 1em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: p-primeri, sans-serif;
+    margin-left: 1.5em;
+}
+
+a {
+    font-family: a-primeri, sans-serif;
+    font-weight: 799;
+}
+
+    a h4 {
+        margin-block-end: 0em;
+        line-height: 1em;
+    }
+
+.slogan {
+    font-size: 2em;
+    line-height: 2em;
+}
+
+header nav .nav-item a {
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    font-family: nav-primeri, sans-serif;
+    font-weight: 899;
+}

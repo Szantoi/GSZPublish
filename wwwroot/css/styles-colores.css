@@ -1,0 +1,64 @@
+﻿:root {
+    --atomic-tangerine: #ff9045ff;
+    --raisin-black: #201f25ff;
+    --ghost-white: #f7f7ffff;
+    --chartreuse: #e0ff4fff;
+    --celestial-blue: #279af1ff;
+    --raspberry: #d81159ff;
+    --sgbus-green: #6bd425ff;
+    --moonstone: #53a2beff;
+    --mountbatten-pink: #94849bff;
+    --emerald: #06d6a0ff;
+    /*----------------------------*/
+    --primary-color: var(--atomic-tangerine);
+    --background-color: var(--raisin-black);
+    --secundery-color: var(--raisin-black);
+    --text-color: var(--ghost-white);
+    /*---------------------------*/
+    --nav-color: var(--raspberry);
+    --a-color: var(--celestial-blue);
+    --a-hover-color: var(--moonstone);
+    --a-visited-color: var(--emerald);
+    --a-active-color: var(--mountbatten-pink);
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--ghost-white);
+}
+
+h4 {
+    color: var(--primary-color);
+}
+
+h5 {
+    color: var(--text-color);
+}
+
+p {
+    color: var(--text-color);
+}
+a {
+    color: var(--a-color);
+}
+
+    a:hover {
+        color: var(--a-hover-color);
+    }
+
+    a:visited {
+        color: var(--a-visited-color);
+    }
+
+    a:active {
+        color: var(--a-active-color);
+    }
+
+
+header nav .nav-item a {
+    color: var(--nav-color);
+}

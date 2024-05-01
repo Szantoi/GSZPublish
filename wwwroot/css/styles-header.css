@@ -1,0 +1,16 @@
+﻿
+:root {
+    /*400px, if 1em = 16px, 25em*/
+    --image-logo-width: 16em;
+    --image-logo-height: 8em;
+}
+
+header nav .nav-item a {
+    margin-right: 2em;
+    text-shadow: 0.1em 0.1em 0.3em var(--nav-color), -0.1em -0.1em 0.3em var(--nav-color);
+}
+
+header div .profile-Logo-picture {
+    width: var(--image-logo-width);
+    height: var(--image-logo-height);
+}

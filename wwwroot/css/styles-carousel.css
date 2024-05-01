@@ -1,0 +1,78 @@
+﻿
+:root {
+    --carousel-height-desktop: 30em;
+    --carousel-height-desktop1: 25em;
+    --carousel-height-tablet2: 16em;
+    --carousel-height-tablet1: 24em;
+    --carousel-height-mobile: 22em;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 50%;
+}
+
+@media (min-width: 1px) {
+    .carousel {
+        height: var(--carousel-height-mobile);
+    }
+
+    .carousel-picture {
+        height: var(--carousel-height-mobile);
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .carousel {
+        height: var(--carousel-height-tablet1);
+    }
+
+    .carousel-picture {
+        height: var(--carousel-height-tablet1);
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        height: var(--carousel-height-tablet2);
+    }
+
+    .carousel-picture {
+        height: var(--carousel-height-tablet2);
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel {
+        height: var(--carousel-height-desktop1);
+    }
+
+    .carousel-picture {
+        height: var(--carousel-height-desktop1);
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel {
+        height: var(--carousel-height-desktop);
+    }
+
+    .carousel-picture {
+        height: var(--carousel-height-desktop);
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .carousel {
+        height: var(--carousel-height-desktop);
+    }
+
+    .carousel-picture {
+        height: var(--carousel-height-desktop);
+        width: 100%;
+    }
+}
+
