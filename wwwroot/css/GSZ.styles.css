@@ -1,6 +1,5 @@
 ﻿
 
-
 .profile-picture {
     width: 20em;
     height: 20em;
@@ -9,3 +8,43 @@
     box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.3);
 }
 
+
+.fab, .far {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+@media (min-width: 1px) and (max-width: 576px) {
+    .fab, .far {
+        font-size: 4em;
+        line-height: 1.5em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .fab, .far {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 768px) {
+    .fab, .far {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+    i.fab {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 992px) {
+    .fab, .far {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
