@@ -10,6 +10,12 @@
     width: 50%;
 }
 
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
 @media (min-width: 1px) {
     .carousel {
         height: var(--carousel-height-mobile);
