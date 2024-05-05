@@ -20,11 +20,6 @@
 }
 
 @font-face {
-    font-family: 'a-primeri';
-    src: url('/Fonts/AsherPunkDemoVersion-ALZJ2.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'p-primeri';
     src: url('/Fonts/VictorMono-VariableFont_wght.ttf') format('truetype');
 }
@@ -67,7 +62,7 @@ p {
 }
 
 a {
-    font-family: a-primeri, sans-serif;
+    font-family: p-primeri, sans-serif;
     font-weight: 799;
 }
 
