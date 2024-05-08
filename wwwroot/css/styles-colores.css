@@ -1,5 +1,8 @@
 ﻿:root {
     --atomic-tangerine: #ff9045ff;
+    --navy-blue: #000273;
+    --Rosewood: #4E0000;
+    /*----------------------------*/
     --raisin-black: #201f25ff;
     --ghost-white: #f7f7ffff;
     --chartreuse: #e0ff4fff;
@@ -42,6 +45,7 @@ h5 {
 p {
     color: var(--text-color);
 }
+
 a {
     color: var(--a-color);
 }
@@ -62,3 +66,11 @@ a {
 header nav .nav-item a {
     color: var(--nav-color);
 }
+
+a h4 {
+    background-color: var(--Rosewood); /* Háttérszín */
+}
+
+    a h4:hover {
+        background-color: var(--a-hover-color); /* Háttérszín változás a hover eseményre */
+    }
